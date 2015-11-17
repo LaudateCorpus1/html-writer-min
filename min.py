@@ -34,9 +34,16 @@ INFO = init(
     lang='html',
     type='writer',
     description='Writes HTML files to minimize the file size.',
-    url='http://jmlopez-rod.github.io/lexor-lang/html-writer-min',
-    author='Manuel Lopez',
-    author_email='jmlopez.rod@gmail.com',
+    git={
+        'host': 'github',
+        'user': 'jmlopez-rod',
+        'repo': 'html-writer-min'
+    },
+    author={
+        'name': 'Manuel Lopez',
+        'email': 'jmlopez.rod@gmail.com'
+    },
+    docs='http://jmlopez-rod.github.io/lexor-lang/html-writer-min',
     license='BSD License',
     path=__file__
 )
